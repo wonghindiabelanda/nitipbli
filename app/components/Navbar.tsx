@@ -11,13 +11,7 @@ export default function Navbar() {
     <header className="flex justify-between items-center p-6 max-w-6xl mx-auto">
       {/* Logo */}
       <a href="#home" className="flex items-center gap-2">
-        <Image
-          src="public/logo.png"
-          alt="logo."
-          width={40}
-          height={40}
-          priority
-        />
+        <Image src="/logo.png" alt="logo" width={40} height={40} priority />
       </a>
 
       {/* Tombol Sidebar Mobile */}
