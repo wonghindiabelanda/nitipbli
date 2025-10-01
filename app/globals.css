@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-white text-gray-900 dark:bg-[#0f1117] dark:text-white font-sans transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  @apply transition;
+}
+
+
