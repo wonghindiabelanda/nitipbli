@@ -16,7 +16,7 @@ export default function Projects() {
     <section id="projects" className="max-w-6xl mx-auto py-20 px-6 text-center">
       <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
       <p className="text-gray-600 dark:text-gray-400 mb-8">
-        My latest repositories from my GitHub Account
+        Latest repositories from my GitHub Account
       </p>
 
       <div className="grid md:grid-cols-3 gap-6 text-left">
