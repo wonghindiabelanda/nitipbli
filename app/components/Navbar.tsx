@@ -8,7 +8,7 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <header className="flex justify-between items-center p-6 max-w-6xl mx-auto">
+    <header className="flex justify-between items-center p-6 max-w-6xl mx-auto border-b border-gray-300 dark:border-gray-700 shadow-md dark:shadow-gray-900 bg-white dark:bg-[#0f0f11]">
       {/* Logo */}
       <a href="#home" className="flex items-center gap-2">
         <Image src="/logo.png" alt="logo" width={80} height={80} priority />
@@ -24,18 +24,10 @@ export default function Navbar() {
 
       {/* Menu Desktop */}
       <nav className="hidden md:flex gap-6 font-medium text-gray-600 dark:text-gray-400">
-        <a href="#about" className="hover:text-purple-400">
-          About
-        </a>
-        <a href="#skills" className="hover:text-purple-400">
-          Skills
-        </a>
-        <a href="#projects" className="hover:text-purple-400">
-          Projects
-        </a>
-        <a href="#contact" className="hover:text-purple-400">
-          Contact
-        </a>
+        <a href="#about" className="hover:text-purple-400">About</a>
+        <a href="#skills" className="hover:text-purple-400">Skills</a>
+        <a href="#projects" className="hover:text-purple-400">Projects</a>
+        <a href="#contact" className="hover:text-purple-400">Contact</a>
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           className="p-2 border rounded-lg"
@@ -72,21 +64,11 @@ export default function Navbar() {
 
             {/* Menu Items */}
             <nav className="flex flex-col gap-4 font-medium text-lg mt-4">
-              <a href="#home" className="text-black dark:text-gray-300">
-                🏠 Home
-              </a>
-              <a href="#about" className="text-black dark:text-gray-300">
-                👨‍💻 About
-              </a>
-              <a href="#skills" className="text-black dark:text-gray-300">
-                ⚒️ Skills
-              </a>
-              <a href="#projects" className="text-black dark:text-gray-300">
-                📂 Projects
-              </a>
-              <a href="#contact" className="text-black dark:text-gray-300">
-                📬 Contact
-              </a>
+              <a href="#home" className="text-black dark:text-gray-300">🏠 Home</a>
+              <a href="#about" className="text-black dark:text-gray-300">👨‍💻 About</a>
+              <a href="#skills" className="text-black dark:text-gray-300">⚒️ Skills</a>
+              <a href="#projects" className="text-black dark:text-gray-300">📂 Projects</a>
+              <a href="#contact" className="text-black dark:text-gray-300">📬 Contact</a>
             </nav>
           </div>
         </div>
