@@ -7,7 +7,7 @@ export default function About() {
       </p>
 
       <div className="grid md:grid-cols-3 gap-6 text-left">
-        <div className="bg-white dark:bg-[#1a1c23] p-6 rounded-xl shadow-md dark:shadow-none">
+        <div className="bg-white dark:bg-[#1a1c23] p-6 rounded-xl border border-gray-200 dark:border-gray-700">
           <h3 className="font-semibold text-lg mb-2">My Journey</h3>
           <p className="text-gray-600 dark:text-gray-400">
             I started programming out of curiosity about how things work. 
@@ -15,14 +15,14 @@ export default function About() {
           </p>
         </div>
 
-        <div className="bg-white dark:bg-[#1a1c23] p-6 rounded-xl shadow-md dark:shadow-none">
+        <div className="bg-white dark:bg-[#1a1c23] p-6 rounded-xl border border-gray-200 dark:border-gray-700">
           <h3 className="font-semibold text-lg mb-2">Personal Interests</h3>
           <p className="text-gray-600 dark:text-gray-400">
             I enjoy drifting, coding, and exploring new technology.
           </p>
         </div>
 
-        <div className="bg-white dark:bg-[#1a1c23] p-6 rounded-xl shadow-md dark:shadow-none">
+        <div className="bg-white dark:bg-[#1a1c23] p-6 rounded-xl border border-gray-200 dark:border-gray-700">
           <h3 className="font-semibold text-lg mb-2">Current Focus</h3>
           <p className="text-gray-600 dark:text-gray-400">
             Diving into Python and low-level optimization 
