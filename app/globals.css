@@ -4,7 +4,7 @@
 
 /* Custom global styles */
 body {
-  @apply bg-white text-gray-900 dark:bg-[#0f1117] dark:text-white font-sans transition-colors duration-300;
+  @apply font-sans transition-colors duration-300;
 }
 
 html {
@@ -15,4 +15,14 @@ a {
   @apply transition;
 }
 
+html.light {
+  }
 
+html.dark {
+  background-color: #111;
+  color: #eee;
+}
+html.dark body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
