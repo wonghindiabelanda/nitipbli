@@ -5,14 +5,9 @@ const projects = [
     link: "https://github.com/me50/wonghindiabelanda/tree/ai50/projects/2024/x/degrees",
   },
   {
-    title: "Making tictactoe Miniax algorithm",
+    title: "Making tictactoe Minimax algorithm",
     desc: "a Simple tictactoe Minimax algorithm",
     link: "https://github.com/me50/wonghindiabelanda/tree/ai50/projects/2024/x/tictactoe",
-  },
-  {
-    title: "Soon..",
-    desc: "None",
-    link: "https://github.com/wonghindiabelanda",
   },
 ]
 
