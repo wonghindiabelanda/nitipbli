@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section id="home" className="text-center py-24 px-6">
-      <p className="text-gray-400 mb-2">👋 Student Developer</p>
+      <p className="text-gray-400 mb-2">Welcome to my portfolio blog!</p>
       <h1 className="text-4xl md:text-6xl font-bold mb-4">
         Hi, I'm <span className="text-purple-500">Reytama</span>
       </h1>
@@ -26,3 +26,4 @@ export default function Hero() {
     </section>
   )
 }
+
