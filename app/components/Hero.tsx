@@ -6,7 +6,7 @@ export default function Hero() {
         Hi, I'm <span className="text-purple-500">Reytama</span>
       </h1>
       <p className="max-w-xl mx-auto text-gray-400 mb-6">
-        Self-taught student passionate about AI & programming.
+        Self-taught student from Indonesia that is passionate about AI & programming.
       </p>
 
       <div className="flex flex-col md:flex-row gap-4 max-w-sm mx-auto">
@@ -26,4 +26,5 @@ export default function Hero() {
     </section>
   )
 }
+
 
