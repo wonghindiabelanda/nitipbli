@@ -6,9 +6,8 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <ThemeProvider
       attribute="class"
-      defaultTheme="system"
-      enableSystem={true}
-      storageKey="theme"
+      defaultTheme="system" 
+      enableSystem={true}  
     >
       {children}
     </ThemeProvider>
