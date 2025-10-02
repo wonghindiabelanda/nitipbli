@@ -10,7 +10,7 @@ export default function About() {
         <div className="bg-white dark:bg-[#1a1c23] p-6 rounded-xl border border-gray-200 dark:border-gray-700">
           <h3 className="font-semibold text-lg mb-2">My Journey</h3>
           <p className="text-gray-600 dark:text-gray-400">
-            I started programming out of curiosity about how things work. 
+            I started programming out of curiosity about how & why things work. 
             That passion grew into AI research and coding.
           </p>
         </div>
