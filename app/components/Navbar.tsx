@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme(); // pakai resolvedTheme
 
   return (
     <header className="flex justify-between items-center p-6 max-w-6xl mx-auto border-b border-gray-300 dark:border-gray-700 shadow-md dark:shadow-gray-900 bg-white dark:bg-[#0f0f11]">
@@ -29,10 +29,10 @@ export default function Navbar() {
         <a href="#projects" className="hover:text-purple-400">Projects</a>
         <a href="#contact" className="hover:text-purple-400">Contact</a>
         <button
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
           className="p-2 border rounded-lg"
         >
-          {theme === "dark" ? "☀️" : "🌙"}
+          {resolvedTheme === "dark" ? "☀️" : "🌙"}
         </button>
       </nav>
 
@@ -49,10 +49,10 @@ export default function Navbar() {
             {/* Close + Theme Toggle */}
             <div className="flex justify-between items-center">
               <button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
                 className="p-2 border rounded-lg"
               >
-                {theme === "dark" ? "☀️" : "🌙"}
+                {resolvedTheme === "dark" ? "☀️" : "🌙"}
               </button>
               <button
                 onClick={() => setOpen(false)}
