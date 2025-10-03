@@ -1,6 +1,7 @@
 const skillsAndtechnologies = [
   "Python",
   "AI Research",
+  "Reverse Engineering",
   "Windows",
   "GitHub",
   "Git",
