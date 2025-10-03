@@ -1,4 +1,4 @@
-const skills = ["Python", "AI Research"]
+const skillsAndtechnologies = ["Python", "AI Research","Windows","GitHub","Git","Canva","VS Code","SQLite"]
 
 export default function Skills() {
   return (
@@ -9,7 +9,7 @@ export default function Skills() {
       </p>
 
       <div className="flex flex-wrap justify-center gap-3">
-        {skills.map((skill) => (
+        {skills.map((skillsAndtechnologies) => (
           <span
             key={skill}
             className="px-4 py-2 bg-gray-200 dark:bg-[#1a1c23] rounded-full font-medium text-sm 
