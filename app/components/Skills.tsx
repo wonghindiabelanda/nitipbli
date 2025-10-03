@@ -15,7 +15,7 @@ export default function Skills() {
     <section id="skills" className="max-w-6xl mx-auto py-20 px-6 text-center">
       <h2 className="text-3xl font-bold mb-4">Skills & Technologies</h2>
       <p className="text-gray-600 dark:text-gray-400 mb-8">
-        Technologies I use often and Skills I love to deepen & explore
+        Technologies I often work with and skills I strive to deepen
       </p>
 
       <div className="flex flex-wrap justify-center gap-3">
